@@ -1,4 +1,13 @@
-.nav__linkEx {
+
+.navbar .navbar-default .navbar-fixed-top {
+  active;
+}
+
+.navbar-default .navbar-nav .active{
+active;
+}
+
+.nav__link {
 color: #399bd1;
 }
 
@@ -8,4 +17,18 @@ color: #399bd1;
   font-weight: bold;
 }
 
+.jumbotron .jumbotron-bike {
 
+  background-image: url('../images/jumbotron-bike.jpg');
+}
+
+
+ /*
+
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+  <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" type="text/css" rel="stylesheet">
+
+ <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"/>
