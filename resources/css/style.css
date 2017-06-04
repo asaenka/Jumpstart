@@ -9,15 +9,14 @@ html {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
-}
-
-.home-page {
-  width: 1024px;
-  margin: 0 auto;
 }
 
 .navbar-default {
@@ -26,16 +25,21 @@ html {
   font-weight: bold;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .active {
   color: #399bd1;
 }
 
-
-
 .jumbotron {
-  height: 630px;
-  width: 1259px;
+  height: 1334px;
+  width: 2000px;
   background-image: url('../images/jumbotron-bike.jpg');
+  background-repeat: no-repeat;
 }
 
 .title {
@@ -55,6 +59,30 @@ html {
   *Active* - box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
+.featured-project__title{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.project-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.project-image-container {
+height:430px ;
+width:730px;
+
+background-image: url('../images/featured-project.png');
+background-repeat: no-repeat;
+opacity: 0.7;
+}
+
+.product-categories__title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #399bd1;
+}
  /*
 
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
