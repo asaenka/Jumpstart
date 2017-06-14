@@ -1,130 +1,187 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Jumpstart</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"/>
 
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
   <link href="resources/css/style.css" type="text/css" rel="stylesheet">
-
-  <title>Jumpstart</title>
+  <link href="resources/css/reset.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
   <div class="home-page">
-
     <header class="header">
       <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="navbar-header">
-          <ul class="nav navbar-nav">
-            <li><a href="#Explore" class="active">Explore</a></li>
-            <li><a href="#Start a project">Start a project</a></li>
-            <li><a href="#About us">About us</a></li>
-          </ul>
-        </div>
-        <div class="navbar-header__logo">
-          <a class="navbar-brand navbar-right navbar-collapse" href="#Jumpstart">
-            <img src="resources/images/logo.png">
-          </a>
+        <div class="container">
+          <div class="navbar-header">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#Explore">Explore</a></li>
+              <li><a href="#Start a project">Start a project</a></li>
+              <li><a href="#About us">About us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-header__logo">
+            <a class="navbar-brand navbar-right navbar-collapse" href="#Jumpstart">
+              <img src="resources/images/logo.png">
+            </a>
+          </div>
         </div>
       </nav>
     </header>
 
-    <div class="hero-section">
-      <div class="jumbotron jumbotron-bike">
-        <div class="container-fluid row">
-          <div class="title">Get going</div>
-          <div class="text">Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</div>
-          <a href="#Jump in" class="btn btn-primary btn-lg">Jump in</a>
+    <div class="carousel">
+      <div class="jumbotron hero-section hero-section--bike">
+        <div class="hero-section__title">Get going.</div>
+        <div class="hero-section__text">Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</div>
+        <a href="#Jump in" class="btn btn-primary btn-lg hero-section__button">Jump in</a>
+      </div>
+
+      <div class="jumbotron hero-section hero-section--bottles">
+        <div class="hero-section__title">Get thinking.</div>
+        <div class="hero-section__text"> Meet like-minded individuals who will help fuel your creative juices.</div>
+        <a href="#Jump in" class="btn btn-primary btn-lg hero-section__button">Jump in</a>
+      </div>
+
+      <div class="jumbotron hero-section hero-section--flowers">
+        <div class="hero-section__title">Get creating.</div>
+        <div class="hero-section__text">Stop overthinking projects and begin putting them out into the world.</div>
+        <a href="#Jump in" class="btn btn-primary btn-lg hero-section__button">Jump in</a>
+      </div>
+
+      <div class="jumbotron hero-section hero-section--duffel">
+        <div class="hero-section__title">Get started.</div>
+        <div class="hero-section__text">What are you waiting for? Today's the day for your next big idea.</div>
+        <a href="#Jump in" class="btn btn-primary btn-lg hero-section__button">Jump in</a>
+      </div>
+    </div>
+
+    <div class="container-fluid featured-project">
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <div class="featured-project__title">
+            Featured Project
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <div class="project-image">
+          </div>
+        </div>
+
+        <div class="col-md-3 featured-project__text">
+          <div class="project-title">DeFrost: A Documentary</div>
+          <div class="project-author">by Leo De Firanze</div>
+          <div class="project-text"> DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her ubbringing a her family, friends, pets, and eventual deaprture from a freezing valley in Northern Itali through beautiful cinematography and narration.</div>
+        </div>
+
+        <div class="col-md-3 project-product-categories">
+
+          <div class="product-categories__title">Product Categories</div>
+          <div class="product-category">Art</div>
+          <div class="product-category">Books</div>
+          <div class="product-category">Crystals</div>
+          <div class="product-category">Design</div>
+          <div class="product-category">Doodles</div>
+          <div class="product-category">Deedlybobs</div>
+          <div class="product-category">Farming</div>
+          <div class="product-category">Gadgets</div>
+          <div class="product-category">Hoverboards</div>
+          <div class="product-category">Jams, Jellies, Etc.</div>
+          <div class="product-category">Magazines</div>
+          <div class="product-category">Plants</div>
+          <div class="product-category">Snakes&Snake Equipment</div>
+          <div class="product-category">Tables</div>
+          <div class="product-category">Ventriliquist Figures</div>
+          <div class="product-category">Yoyos</div>
         </div>
       </div>
     </div>
 
-    <div class="featured-project">
-      <div class="featured-project__title">Featured Project</div>
+    <div class="container-fluid projects-example">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="projects-examples__title">Projects</div>
+        </div>
+      </div>
 
-      <div class="project-image-container"></div>
+      <div class="row">
+        <div class="col-md-4 col-xs-12">
+          <div class="projects-examples__body">
+            <img class="project-examples__image-container" src="resources/images/project1.png">
 
+            <div class="project-examples__info">
+              <h3 class="project-examples__title">The Right Tights</h3>
+              <div class="project-examples__author">by Riley Mae</div>
+              <div class="project-examples__text">
+                These tights are 50 denier, beautifully constructed, nad-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.
+              </div>
+            </div>
+          </div>
+        </div>
 
-      <div class="project-title">Project title</div>
-      <div class="project-author">by Person Person</div>
-      <div class="project-text"> I have been questioned by many people to disclose some of the greatest traffic generating techniques that I know of. I am not to immedtiate to reveal them becaues I know the majority doesn't even take battle on them. All I know is that they work and you should be familiar with this too.</div>
-      <div class="project-product-categories">
-        <div class="product-categories__title">Product Categories</div>
+        <div class="col-md-4 col-xs-12">
+          <div class="projects-examples__body">
+            <img class="project-examples__image-container" src="resources/images/project2.png">
 
+            <div class="project-examples__info">
+              <h3 class="project-examples__title">Peppermint Smart Home</h3>
+              <div class="project-examples__author">by Brian McDonald</div>
+              <div class="project-examples__text">
+                Instantly upgrade your home with technology that keeps your family and home safe. We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <div class="product-category">Art</div>
-        <div class="product-category">Books</div>
-        <div class="product-category">Crystals</div>
-        <div class="product-category">Design</div>
-        <div class="product-category">Doodles</div>
-        <div class="product-category">Deedlybobs</div>
-        <div class="product-category">Farming</div>
-        <div class="product-category">Gadgets</div>
-        <div class="product-category">Hoverboards</div>
-        <div class="product-category">Jams, Jellies, Etc.</div>
-        <div class="product-category">Magazines</div>
-        <div class="product-category">Plants</div>
-        <div class="product-category">Snakes&Snake Equipment</div>
-        <div class="product-category">Tables</div>
-        <div class="product-category">Ventriliquist Figures</div>
-        <div class="product-category">Yoyos</div>
+        <div class="col-md-4 col-xs-12">
+          <div class="projects-examples__body">
+            <img class="project-examples__image-container" src="resources/images/project3.png">
+
+            <div class="project-examples__info">
+              <h3 class="project-examples__title">American Streetlife</h3>
+              <div class="project-examples__author">by Patrick Wallace</div>
+              <div class="project-examples__text">
+                I've been travelling around the United States for the past two years. I've slept on hundreds of couches, more than a few benches, and captured my experiences in theis 120 page photo album.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
+    <div class="container-fluid projects-example">
+      <div class="row">
+        <div class="col-xs-12">
+          <footer class="home-page__footer footer">
+            <div class="footer__question">
+              Having trouble thinkin of an idea?
+            </div>
 
-    <div class="projects-examples__title">Projects</div>
+            <div class="footer__summary">
+              Inventors' block strikes at the worst times. But that's all changed with Jumpstart's Good Idea Generator Lite (GIGLi).
+            </div>
 
-    <a href="#" class="project-examples">
-
-      <div class="projects-examples__body">
-          <img class="project-examples__image-container" src="resources/images/project1.png">
-
-        <div class="project-examples__info">
-          <div class="project-examples__title">Title</div>
-          <div class="project-examples__author">by Person Person</div>
-          <div class="project-examples__text">I have been questioned by many people to disclose some of the greatest traffic generating techniques that I know of. I am not to immedtiate to reveal them becaues I know the majority doesn't even take battle on them. All I know is that they work and you should be familiar with this too.</div>
+            <div class="footer__button">
+              <a href="#Jump in" class="btn btn-primary btn-lg">
+                Learn more
+              </a>
+            </div>
+          </footer>
         </div>
       </div>
-    </a>
-
-    <a href="#" class="project-examples">
-
-      <div class="projects-examples__body">
-          <img class="project-examples__image-container" src="resources/images/project2.png">
-
-        <div class="project-examples__info">
-          <div class="project-examples__title">Title</div>
-          <div class="project-examples__author">by Person Person</div>
-          <div class="project-examples__text">I have been questioned by many people to disclose some of the greatest traffic generating techniques that I know of. I am not to immedtiate to reveal them becaues I know the majority doesn't even take battle on them. All I know is that they work and you should be familiar with this too.</div>
-        </div>
-      </div>
-    </a>
-
-    <a href="#" class="project-examples">
-
-      <div class="projects-examples__body">
-          <img class="project-examples__image-container" src="resources/images/project3.png">
-
-        <div class="project-examples__info">
-          <div class="project-examples__title">Title</div>
-          <div class="project-examples__author">by Person Person</div>
-          <div class="project-examples__text">I have been questioned by many people to disclose some of the greatest traffic generating techniques that I know of. I am not to immedtiate to reveal them becaues I know the majority doesn't even take battle on them. All I know is that they work and you should be familiar with this too.</div>
-        </div>
-      </div>
-    </a>
-
-    <footer class="footer">
-      <div class="footer__question">Having trouble thinkin of an idea?</div>
-      <div class="footer__summary">Inventors' block strikes at the worst times. But that's all changed with Jumpstart's Good Idea Generator Lite (GIGLi).</div>
-
-      <div class="footer__button">
-        <a href="#Jump in" class="btn btn-primary btn-lg">Learn more</a>
-      </div>
-
+    </div>
   </div>
-</body>
 
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <script type="text/javascript" src="resources/js/main.js"></script>
+</body>
+</html>
 
