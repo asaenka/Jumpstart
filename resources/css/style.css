@@ -17,7 +17,6 @@ a {
 
 .navbar-default .navbar-nav > .active > a {
   background: transparent;
-
   color: #399bd1;
 }
 
@@ -56,8 +55,11 @@ a {
 .hero-section__title {
   font-family: Monoton;
   font-size: 7.1rem;
+
   color: white;
+
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-align: center;
 }
 
 .hero-section__text {
@@ -65,6 +67,7 @@ a {
   font-size: 21px;
   font-weight: 200;
   text-align: center;
+
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -174,22 +177,26 @@ a {
 }
 
 .btn-primary  {
-    width: 160px;
-    padding: 1.3rem 0;
-    border: 0;
-    background-color: #399bd1;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-    transition: .5s box-shadow;
-  }
-  .btn-primary:hover {
+  width: 160px;
+  padding: 1.3rem 0;
+  border: 0;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  transition: .5s box-shadow;
+}
+
+.btn-primary:hover {
     background-color: #399bd1;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
 }
 
-
 /* Override slick display: block; for visible slide */
 .slick-initialized .slick-slide {
   display: flex;
+}
+
+.support {
+  padding: 0;
 }
 
 @media (max-width: 599px) {
@@ -197,56 +204,58 @@ a {
     width: 100%;
   }
 
-.navbar-header__logo img {
-  display: none;
+  .navbar-header__logo {
+    display: none;
+  }
+
+  .hero-section__title {
+    font-size: 3.7rem;
+  }
+
+  .hero-section--bike {
+    width:451px;
+    height: 750px;
+    background-image: url('../images/jumbotron-bike.jpg');
+  }
+
+  .hero-section--bottles {
+    width:451px;
+    height: 750px;
+    background-image: url('../images/jumbotron-beer.jpg');
+  }
+
+  .hero-section--flowers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width:451px;
+    height: 750px;
+
+    background-image: url('../images/jumbotron-flowers.jpg');
+  }
+
+  .hero-section--duffel {
+    width:451px;
+    height: 750px;
+
+    background-image: url('../images/jumbotron-duffel.jpg');
+  }
+
+  .project-image {
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .footer__question {
+    text-align: center;
+  }
+
+  .footer__summary {
+    text-align: center;
+  }
 }
 
-.hero-section .hero-section__title {
-  font-family: Monoton;
-  font-size: 3.7rem;
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
-
-.hero-section--bike {
-  width:451px;
-  height: 750px;
-  background-image: url('../images/jumbotron-bike.jpg');
-}
-
-.hero-section--bottles {
-  width:451px;
-  height: 750px;
-  background-image: url('../images/jumbotron-beer.jpg');
-}
-
-.hero-section--flowers {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  width:451px;
-  height: 750px;
-  background-image: url('../images/jumbotron-flowers.jpg');
-}
-
-.hero-section--duffel {
-  width:451px;
-  height: 750px;
-  background-image: url('../images/jumbotron-duffel.jpg');
-}
-
-.project-image img {
-  background-image: url('../images/mobile-version/featured-project.png');
-}
-
-.footer__question {
-  text-align: center;
-}
-
-.footer__summary {
-  text-align: center;
-}
 
 
 
