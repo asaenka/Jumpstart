@@ -1,40 +1,190 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" type="text/css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <title>Jumpstart</title>
 
-  <link href="resources/css/style.css" type="text/css" rel="stylesheet">
-
-  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+  <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"/>
-  <title>Jumpstart</title>
+
+  <link href="resources/css/reset.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+  <link href="resources/css/style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
   <div class="home-page">
     <header class="header">
-      <div class="header__navigation">
-        <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container-fluid">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
             <ul class="nav navbar-nav">
-              <li><a href="#Explore" class="nav__linkEx">Explore</a></li>
-              <li><a href="#Start a project" class="nav__link"> Start a project</a></li>
-              <li><a href="#About us" class="nav__link"> About us</a></li>
+              <li class="active"><a href="#Explore">Explore</a></li>
+              <li><a href="#Start a project">Start a project</a></li>
+              <li><a href="#About us">About us</a></li>
             </ul>
           </div>
-        </nav>
+          <div class="navbar-header__logo">
+            <a class="navbar-brand navbar-right navbar-collapse" href="#Jumpstart">
+              <img src="resources/images/logo.png">
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="carousel">
+      <div class="jumbotron hero-section hero-section--bike">
+        <div class="hero-section__title">Get going.</div>
+        <div class="hero-section__text">Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</div>
+        <a href="#Jump in" class="btn btn-primary btn-lg hero-section__button">Jump in</a>
       </div>
 
-      <div class="header__logo">
-        <div class="logo">
-          <img src="resources/images/logo.png" class="navbar-brand navbar-right navbar-collapse">
+      <div class="jumbotron hero-section hero-section--bottles">
+        <div class="hero-section__title">Get thinking.</div>
+        <div class="hero-section__text"> Meet like-minded individuals who will help fuel your creative juices.</div>
+        <a href="#Jump in" class="btn btn-primary btn-lg hero-section__button">Jump in</a>
+      </div>
+
+      <div class="jumbotron hero-section hero-section--flowers">
+        <div class="hero-section__title">Get creating.</div>
+        <div class="hero-section__text">Stop overthinking projects and begin putting them out into the world.</div>
+        <a href="#Jump in" class="btn btn-primary btn-lg hero-section__button">Jump in</a>
+      </div>
+
+      <div class="jumbotron hero-section hero-section--duffel">
+        <div class="hero-section__title">Get started.</div>
+        <div class="hero-section__text">What are you waiting for? Today's the day for your next big idea.</div>
+        <a href="#Jump in" class="btn btn-primary btn-lg hero-section__button">Jump in</a>
+      </div>
+    </div>
+
+    <div class="container-fluid featured-project">
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <div class="featured-project__title">
+            Featured Project
+          </div>
         </div>
       </div>
-    </header>
+
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <div class="featured-project__image-container">
+            <div class="featured-project__image">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <div class="featured-project__movie">DeFrost: A Documentary</div>
+          <div class="featured-project__director">by Leo De Firanze</div>
+          <div class="featured-project__description"> DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her ubbringing a her family, friends, pets, and eventual deaprture from a freezing valley in Northern Itali through beautiful cinematography and narration.</div>
+        </div>
+
+        <div class="col-xs-6 col-md-3 product-categories">
+          <div class="product-categories__title">Product Categories</div>
+          <ul>
+            <li class="product-categories__category">Art</li>
+            <li class="product-categories__category">Books</li>
+            <li class="product-categories__category">Crystals</li>
+            <li class="product-categories__category">Design</li>
+            <li class="product-categories__category">Doodles</li>
+            <li class="product-categories__category">Deedlybobs</li>
+            <li class="product-categories__category">Farming</li>
+            <li class="product-categories__category">Gadgets</li>
+            <li class="product-categories__category">Hoverboards</li>
+            <li class="product-categories__category">Jams, Jellies, Etc.</li>
+            <li class="product-categories__category">Magazines</li>
+            <li class="product-categories__category">Plants</li>
+            <li class="product-categories__category">Snakes&Snake Equipment</li>
+            <li class="product-categories__category">Tables</li>
+            <li class="product-categories__category">Ventriliquist Figures</li>
+            <li class="product-categories__category">Yoyos</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid projects-example">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="projects-examples__title">Projects</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-xs-12">
+          <div class="projects-examples__body">
+            <div class="project-examples__image-container">
+              <img class="project-examples__image" src="resources/images/project1.png">
+            </div>
+
+            <div class="project-examples__info">
+              <h3 class="project-examples__title">The Right Tights</h3>
+              <div class="project-examples__author">by Riley Mae</div>
+              <div class="project-examples__text">
+                These tights are 50 denier, beautifully constructed, nad-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-xs-12">
+          <div class="projects-examples__body">
+            <div class="project-examples__image-container">
+              <img class="project-examples__image" src="resources/images/project2.png">
+            </div>
+
+            <div class="project-examples__info">
+              <h3 class="project-examples__title">Peppermint Smart Home</h3>
+              <div class="project-examples__author">by Brian McDonald</div>
+              <div class="project-examples__text">
+                Instantly upgrade your home with technology that keeps your family and home safe. We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-xs-12">
+          <div class="projects-examples__body">
+            <div class="project-examples__image-container">
+              <img class="project-examples__image" src="resources/images/project3.png">
+            </div>
+
+            <div class="project-examples__info">
+              <h3 class="project-examples__title">American Streetlife</h3>
+              <div class="project-examples__author">by Patrick Wallace</div>
+              <div class="project-examples__description">
+              I've been travelling around the United States for the past two years. I've slept on hundreds of couches, more than a few benches, and captured my experiences in theis 120 page photo album.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid container-fluid--no-padding">
+      <footer class="home-page__footer footer">
+        <div class="footer__question">
+          Having trouble thinking of an idea?
+        </div>
+
+        <div class="footer__summary">
+          Inventors' block strikes at the worst times. But that's all changed with Jumpstart's Good Idea Generator Lite (GIGLi).
+        </div>
+
+        <a href="#Jump in" class="btn btn-primary btn-lg">
+          Learn more
+        </a>
+      </footer>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <script type="text/javascript" src="resources/js/main.js"></script>
 </body>
-
-
+</html>
 
