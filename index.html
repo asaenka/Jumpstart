@@ -2,15 +2,15 @@
 <html>
 <head>
   <title>Jumpstart</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"/>
 
+  <link href="resources/css/reset.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
   <link href="resources/css/style.css" type="text/css" rel="stylesheet">
-  <link href="resources/css/reset.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -71,40 +71,40 @@
 
       <div class="row">
         <div class="col-xs-12 col-md-6">
-          <div class="project-examples__image-container">
-            <div class="project-image">
+          <div class="featured-project__image-container">
+            <div class="featured-project__image">
             </div>
           </div>
         </div>
 
-        <div class="col-xs-6 col-md-3 featured-project__text">
-          <div class="project-title">DeFrost: A Documentary</div>
-          <div class="project-author">by Leo De Firanze</div>
-          <div class="project-text"> DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her ubbringing a her family, friends, pets, and eventual deaprture from a freezing valley in Northern Itali through beautiful cinematography and narration.</div>
+        <div class="col-xs-6 col-md-3">
+          <div class="featured-project__movie">DeFrost: A Documentary</div>
+          <div class="featured-project__director">by Leo De Firanze</div>
+          <div class="featured-project__description"> DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her ubbringing a her family, friends, pets, and eventual deaprture from a freezing valley in Northern Itali through beautiful cinematography and narration.</div>
         </div>
 
-        <div class="col-xs-6 col-md-3 project-product-categories">
-
+        <div class="col-xs-6 col-md-3 product-categories">
           <div class="product-categories__title">Product Categories</div>
-          <div class="product-category">Art</div>
-          <div class="product-category">Books</div>
-          <div class="product-category">Crystals</div>
-          <div class="product-category">Design</div>
-          <div class="product-category">Doodles</div>
-          <div class="product-category">Deedlybobs</div>
-          <div class="product-category">Farming</div>
-          <div class="product-category">Gadgets</div>
-          <div class="product-category">Hoverboards</div>
-          <div class="product-category">Jams, Jellies, Etc.</div>
-          <div class="product-category">Magazines</div>
-          <div class="product-category">Plants</div>
-          <div class="product-category">Snakes&Snake Equipment</div>
-          <div class="product-category">Tables</div>
-          <div class="product-category">Ventriliquist Figures</div>
-          <div class="product-category">Yoyos</div>
+          <ul>
+            <li class="product-categories__category">Art</li>
+            <li class="product-categories__category">Books</li>
+            <li class="product-categories__category">Crystals</li>
+            <li class="product-categories__category">Design</li>
+            <li class="product-categories__category">Doodles</li>
+            <li class="product-categories__category">Deedlybobs</li>
+            <li class="product-categories__category">Farming</li>
+            <li class="product-categories__category">Gadgets</li>
+            <li class="product-categories__category">Hoverboards</li>
+            <li class="product-categories__category">Jams, Jellies, Etc.</li>
+            <li class="product-categories__category">Magazines</li>
+            <li class="product-categories__category">Plants</li>
+            <li class="product-categories__category">Snakes&Snake Equipment</li>
+            <li class="product-categories__category">Tables</li>
+            <li class="product-categories__category">Ventriliquist Figures</li>
+            <li class="product-categories__category">Yoyos</li>
+          </ul>
         </div>
       </div>
-    </div>
     </div>
 
     <div class="container-fluid projects-example">
@@ -150,14 +150,14 @@
         <div class="col-md-4 col-xs-12">
           <div class="projects-examples__body">
             <div class="project-examples__image-container">
-              <img class="project-examples__image" src="resources/images/project3.png" />
+              <img class="project-examples__image" src="resources/images/project3.png">
             </div>
 
             <div class="project-examples__info">
               <h3 class="project-examples__title">American Streetlife</h3>
               <div class="project-examples__author">by Patrick Wallace</div>
-              <div class="project-examples__text">
-                I've been travelling around the United States for the past two years. I've slept on hundreds of couches, more than a few benches, and captured my experiences in theis 120 page photo album.
+              <div class="project-examples__description">
+              I've been travelling around the United States for the past two years. I've slept on hundreds of couches, more than a few benches, and captured my experiences in theis 120 page photo album.
               </div>
             </div>
           </div>
@@ -165,7 +165,7 @@
       </div>
     </div>
 
-    <div class="container-fluid support">
+    <div class="container-fluid container-fluid--no-padding">
       <footer class="home-page__footer footer">
         <div class="footer__question">
           Having trouble thinking of an idea?
@@ -175,11 +175,9 @@
           Inventors' block strikes at the worst times. But that's all changed with Jumpstart's Good Idea Generator Lite (GIGLi).
         </div>
 
-        <div class="footer__button">
-          <a href="#Jump in" class="btn btn-primary btn-lg">
-            Learn more
-          </a>
-        </div>
+        <a href="#Jump in" class="btn btn-primary btn-lg">
+          Learn more
+        </a>
       </footer>
     </div>
   </div>
